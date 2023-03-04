@@ -1,0 +1,35 @@
+ // create Stack using '@react-navigation/stack'; for stack nav
+ //create Tab using '@react-navigation/bottom-tabs' for bottom nav
+ //to open the webbrowser to go to spotify authorization page
+ //using the Spotify web api and seting up clientId 
+ //spotify authorization endpoint to do authorization
+ //spotify token endpoint to make request for token
+ // redireact url of app and to redirect when authorization part is done
+  //using {  useAuthRequest } from 'expo-auth-session' to to handle the authorization part and to get the authorization code to request for access token and refresh token ;
+   //after redirecting to app and response change run this block to do the login 
+   //get the authorization code from the response 
+   //store it to state variable
+      console.log('code', code);
+      //send request to backend for login i.e - to get the access token and refresh token //store the res to the state variables
+      //if any error happens calles the promtAsync()function to run the authorization procedure again
+      //set the accesstoken 
+    //after some time access token get expired ,using this make the request to get the new access token for that used the refresh token
+    //seting up the state variable
+    //stack nav 
+     {/* stack component in that all the screen are define */}
+     {/* Homescreen of app consist of album,playlists*/}
+     {/* PlayerScreen of app,  which play the songs and have the controller*/}
+    {/* PlaylistScreen of app ,which shows the list of songs playlist,album contian*/}
+    //stack nav
+
+{/* SearchScreen of app where playlist can be searched*/}
+    {/* Detector component of app which detect face expression*/}
+ {/* after searching and detecting result is shown here */}
+    {/* in code we use navigation for working that we have to wrap that methods inside navigationContainer*/} 
+     //use the conditional rendering
+      {/* This is the bottom tab to navigate between screen */}
+   // if we have access token then render this component
+   //set iconName to render icon depending on screen
+
+   // if not then render this component  
+                                 //button for login
